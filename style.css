@@ -268,7 +268,7 @@ nav ul li a:hover {
   border-radius: 10px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -20px;
   overflow: hidden;
   display: flex;
   justify-content: center;
