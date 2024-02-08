@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portpholio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <h2 class="logo">PRATAP</h2>
+          </div>
+          <ul id="side-menu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text" data-aos="fade-up">
+          <p>JAVA Devloper</p>
+          <h1>
+            HI, I'm <span>Pratap</span> <br />
+            from Kendrapada,Odisha
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------about---------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1" data-aos="fade-down">
+            <img src="./imgs/pratap.jpg" alt="myself" />
+          </div>
+          <div class="about-col-2" data-aos="fade-up">
+            <h1 class="sub-title">About me</h1>
+
+            <p>
+              As a motivated and aspiring Java developer, I possess a solid
+              foundation in core Java concepts and am proficient in leveraging
+              industry-standard tools and practices to deliver high-quality
+              software solutions. With a keen interest in software development,
+              I am committed to continuous learning and growth in the field.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-content" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interface</li>
+                <li><span>Web Devlopment</span><br />Web App Devlopment</li>
+                <li>
+                  <span>App Devlopment</span><br />Bulding android/Ios App
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Desktoop Application Devlopment</span><br />Student
+                  management system
+                </li>
+                <li>
+                  <span>Game Devlopment</span><br />shooting game, sumuray
+                  game,word shoot game
+                </li>
+                <li>
+                  <span>web Application Devlopment</span><br />learning.....
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Matriculation </span><br />Nrusingha Jew Nodal High
+                  School ,Manikpur (77%)
+                </li>
+                <li>
+                  <span>12th</span><br />kendrapada Autonomus college,Kendrapada
+                  (79%)
+                </li>
+                <li>
+                  <span>Graduation</span><br />Raajdhani Engineering
+                  College,BBSR(3rd year ,continuing... )
+                </li>
+                <li><span>Java fullstack</span><br />Java Technocrat,BBSR</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------services------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title" data-aos="fade-right">My services</h1>
+        <div class="services-list">
+          <div data-aos="fade-in">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Skilled in web design principles, UX/UI concepts, and proficient
+              in HTML, CSS, and JavaScript, I create visually appealing and
+              intuitive websites. I leverage tools like Adobe Photoshop and
+              Sketch for mockups, translating them into code. Committed to
+              staying updated with trends, I ensure engaging, user-friendly
+              digital experiences that effectively convey the client's message.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+
+          <div data-aos="fade-in" data-aos-delay="500">
+            <i class="fa-brands fa-app-store"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Proficient in UI/UX design, I specialize in creating engaging
+              digital experiences that prioritize user satisfaction and
+              functionality. With a strong understanding of user-centered design
+              principles, I craft intuitive interfaces that seamlessly guide
+              users through interactions. Leveraging tools like Adobe XD and
+              Figma, I prototype and iterate designs to achieve optimal
+              usability. Committed to staying abreast of emerging trends and
+              best practices, I strive to deliver visually appealing and
+              intuitive designs that enhance the overall user experience.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+
+          <div data-aos="fade-in" data-aos-delay="1000">
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>App Design</h2>
+            <p>
+              Experienced in app design, I focus on creating intuitive and
+              visually appealing user interfaces that optimize user interaction
+              and engagement. With a deep understanding of mobile design
+              principles, I craft interfaces that prioritize simplicity and
+              functionality across various devices and screen sizes. Utilizing
+              tools like Sketch and Adobe XD, I prototype and refine designs to
+              ensure seamless user experiences. Committed to staying updated
+              with the latest trends and technologies, I continuously strive to
+              deliver innovative and user-centric app designs that meet the
+              needs and preferences of target audiences.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------portfolio---------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title" data-aos="fade-up">My work</h1>
+        <div class="work-list">
+          <div class="work" data-aos="flip-right" data-aos-delay="0">
+            <img src="imgs/work1.jpg" />
+            <div class="layer">
+              <h3>plane-rush game</h3>
+              <p>
+                In the realm of plane shoot games, I thrive on crafting
+                adrenaline-pumping experiences that immerse players in
+                fast-paced aerial combat. With a passion for game design and
+                programming expertise, I specialize in creating dynamic gameplay
+                mechanics, breathtaking visuals, and immersive sound effects
+                that captivate players from takeoff to landing.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work" data-aos="flip-right" data-aos-delay="500">
+            <img src="imgs/work2.jpg" />
+            <div class="layer">
+              <h3>blogging-website</h3>
+              <p>
+                In the realm of blogging websites, I specialize in crafting
+                user-friendly platforms that empower creators to share their
+                ideas, stories, and expertise with the world. With a focus on
+                intuitive design and robust functionality, I develop blogging
+                websites that prioritize seamless navigation, engaging content
+                presentation, and interactive community features.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work" data-aos="flip-right" data-aos-delay="1000">
+            <img src="imgs/work3.jpg" />
+            <div class="layer">
+              <h3>student-management website</h3>
+              <p>
+                In the domain of student management websites, my expertise lies
+                in creating comprehensive platforms that streamline
+                administrative tasks and enhance communication between
+                educational institutions, students, and faculty.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn" data-aos="fade-up">See more</a>
+      </div>
+    </div>
+    <!-- ----------------------------contact----------------------------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left" data-aos="fade-down">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>pintupratap8@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8117882513</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="imgs/pratap.cv.png" download class="btn btn2">
+              Download CV</a
+            >
+          </div>
+          <div class="contact-right" data-aos="fade-up">
+            <form name="submit-to-google-sheet" action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                id=""
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright ! Pratap <i class="fa-solid fa-heart"></i> made by pratap
+        </p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 800, offset: 220 });
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-content");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-content");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("side-menu");
+      function openMenu() {
+        sidemenu.style.right = "0";
+      }
+      function closeMenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx9jp2InXjtJIU-Jk_M0-dwya_z56F_UlZAzJ1Om1WWuxPeshw7I_QStSkW_ib0SFio/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(() => {
+              msg.innerHTML = "";
+            }, 3000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
